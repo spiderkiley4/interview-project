@@ -2,7 +2,7 @@ import React from 'react';
 
 function VideoPlayer({ src }) {
   return (
-    <div className="flex justify-center items-center h-screen">
+    <div className="flex justify-center items-center">
       <video
         className="w-full max-w-3xl"
         controls
