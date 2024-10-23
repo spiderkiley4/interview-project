@@ -7,7 +7,7 @@ function VideoPlayer({ src }) {
         className="w-full max-w-3xl"
         controls
         src={src}
-        type="video/webm"
+        type="video/mp4"
         // Add additional attributes as needed
       >
         Your browser does not support the video tag.
