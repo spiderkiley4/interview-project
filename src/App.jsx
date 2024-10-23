@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import VideoPlayer from './components/VideoPlayer';
-import video from "./assets/full-interview.mp4";
+import video from "./assets/test.webm";
 import eldenRingIcon from "./assets/eldenring.png"
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         {darkMode ? "☀️" : "🌙"}
       </button>
       <div className="flex-1">
-        <VideoPlayer src={video} />
+        <VideoPlayer src={video} type="webm" />
       </div>
     </div>
   )
