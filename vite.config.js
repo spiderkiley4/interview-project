@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.mkv'],
-  base: "https://spiderkiley4.github.io/interview-project/",
+  base: "/interview-project/",
 })
