@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import VideoPlayer from './components/VideoPlayer';
 import video from "./assets/test.webm";
-import eldenRingIcon from "./assets/eldenring.png"
+import eldenRingIcon from "/eldenring.png"
 
 function App() {
   const [darkMode, setDarkMode] = useState(() => {
