@@ -1,5 +1,3 @@
-import React from 'react';
-
 function VideoPlayer({ src, type }) {
   return (
     <div className="flex justify-center items-center">
